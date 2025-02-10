@@ -12,9 +12,23 @@ body {
 
 .header-container {
     background-color: #1f2937;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin: 10px 150px;
 }
 
 .header-logo,
 img {
     width: 100px;
+}
+
+.header-links {
+    display: flex;
+    color: white;
+    gap: 20px;
 }
