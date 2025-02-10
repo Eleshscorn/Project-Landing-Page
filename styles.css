@@ -20,7 +20,7 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    margin: 10px 150px;
+    margin: 20px 150px;
 }
 
 .header-logo,
@@ -38,8 +38,18 @@ img {
     text-decoration: none;
 }
 
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+
 .header-hero {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+}
+
+.header-image img {
+    width: 500px;
 }
