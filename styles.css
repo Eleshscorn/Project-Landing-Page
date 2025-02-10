@@ -5,3 +5,16 @@ body {
     font-family: "Roboto", serif;
 }
 
+.flex-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container {
+    background-color: #1f2937;
+}
+
+.header-logo,
+img {
+    width: 100px;
+}
