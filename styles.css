@@ -29,6 +29,11 @@ img {
 
 .header-links {
     display: flex;
-    color: white;
+    /* color: white; */
     gap: 20px;
+}
+
+.head-links, a {
+    color: white;
+    text-decoration: none;
 }
