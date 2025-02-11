@@ -58,10 +58,11 @@ img {
 button {
     color: #f9faf8;
     background-color: #3882f6;
+    font-size: 18px;
     font-weight: 900;
-    padding: 5px 15px;
+    padding: 5px 20px;
     border: none;
-    border-radius: 12%;
+    border-radius: 4px;
 }
 
 .header-image img {
