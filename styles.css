@@ -20,7 +20,8 @@ body {
     display: flex;
     flex: 1;
     justify-content: space-between;
-    margin: 20px 150px;
+    margin: 20px 250px;
+    margin-bottom: 100px;
 }
 
 .header-logo {
@@ -33,7 +34,7 @@ body {
     gap: 20px;
 }
 
-.head-links, a {
+.header-links, a {
     color: white;
     text-decoration: none;
 }
@@ -41,7 +42,8 @@ body {
 .header-content {
     display: flex;
     justify-content: space-between;
-    margin: 0 150px;
+    margin: 0 250px;
+    margin-bottom: 100px;
 }
 
 .hero-title {
@@ -67,4 +69,5 @@ button {
 
 .header-image img {
     width: 500px;
+    margin-left: 50px;
 }
