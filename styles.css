@@ -43,7 +43,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 0 250px;
-    margin-bottom: 100px;
+    margin-bottom: 125px;
     /* flex: 1; */
 }
 
@@ -75,4 +75,20 @@ button {
 .header-image img {
     width: 500px;
     margin-left: 50px;
+}
+
+/* selectors for the Random Information container */
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 250px;
+}
+
+.info-title {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 50px 0;
 }
