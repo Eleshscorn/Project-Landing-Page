@@ -100,9 +100,9 @@ button {
 }
 
 .grid {
+    display: flex;
     width: 200px;
     flex-direction: column;
-    align-items: center;
 }
 
 .grid > img {
@@ -116,4 +116,5 @@ button {
     color: #1f2937;
     font-size: 18px;
     margin-top: 10px;
+    text-align: center;
 }
