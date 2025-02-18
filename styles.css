@@ -123,4 +123,22 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
+    padding: 100px 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.quote,
+.author {
+    color: #1f2937;
 }
