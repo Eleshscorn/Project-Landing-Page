@@ -44,7 +44,6 @@ body {
     justify-content: space-between;
     margin: 0 250px;
     margin-bottom: 125px;
-    /* flex: 1; */
 }
 
 .hero-title {
@@ -119,6 +118,8 @@ button {
     text-align: center;
 }
 
+/* Quote section */
+
 .quote-container {
     display: flex;
     flex-direction: column;
@@ -142,4 +143,32 @@ button {
 .quote,
 .author {
     color: #1f2937;
+}
+
+/* Call to action / sign up */
+
+
+.signup-container {
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px 250px;
+    padding: 40px 70px;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.call {
+    font-weight: bold;
+}
+
+.signup-text {
+
+}
+
+.call,
+.signup-text {
+    color: white;
+}
+
+.signup-container > button {
+    border: 2px solid white;
 }
