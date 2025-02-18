@@ -136,6 +136,7 @@ button {
 
 .author {
     align-self: flex-end;
+    font-weight: bold;
 }
 
 .quote,
